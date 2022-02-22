@@ -13,12 +13,13 @@ USE_SPLR = YES
 #
 #OBJDIR_PATH=/home/escj/azertyuiopqsdfghjklm/wxcvbn/azertyuiopqsdfghjklmwxcvbn
 #
-OPT_BASE  = -fdefault-real-8 -fdefault-double-8 -g -fno-second-underscore -fpic  -ffpe-trap=overflow,zero,invalid -fbacktrace -fconvert=swap -pg
+OPT_BASE  = -fdefault-real-8 -fdefault-double-8 -g -fno-second-underscore -fpic  -ffpe-trap=overflow,zero,invalid -fbacktrace -fconvert=swap
 #
 OPT_PERF0 = -O0
 OPT_PERF2 = -O2
-OPT_CHECK = -fbounds-check -finit-real=nan
+#OPT_CHECK = -fbounds-check -finit-real=nan
 #OPT_CHECK = -fcheck=bounds,do,mem,pointer,recursion -finit-real=nan
+OPT_CHECK = -fcheck=bounds,do,mem,pointer,recursion -finit-real=nan
 OPT_I8    = -fdefault-integer-8
 #
 #
@@ -53,7 +54,7 @@ $(OBJSD) : OPT = $(OPT_BASE) $(OPT_PERF0)
 endif
 #
 ifeq "$(VER_MPI)" "NOMPI"
-F90= gfortran -pg
+F90= gfortran
 CC = gcc
 else
 F90 = mpif90
@@ -65,12 +66,13 @@ REALFC=gfortran
 FCFLAGS_OMP= -fopenmp
 CFLAGS_OMP= -fopenmp
 ifeq "$(VER_OMP)" "NOOMP"
-FCFLAGS_OMP= -pg
+FCFLAGS_OMP=
 CFLAGS_OMP=
 endif
 #
 F90FLAGS      = $(FCFLAGS_OMP) $(OPT)
 F77 = $(F90)
+FC = $(F90)
 F77FLAGS      = $(FCFLAGS_OMP) $(OPT)
 FX90 = $(F90)
 FX90FLAGS     = $(FCFLAGS_OMP) $(OPT)
