@@ -1,0 +1,222 @@
+&NAM_DATA_ISBA         NTIME = 12 ,
+                       XUNIF_VEGTYPE(1)     = 0.,
+                       XUNIF_VEGTYPE(2)     = 0.,
+                       XUNIF_VEGTYPE(3)     = 0.,
+                       XUNIF_VEGTYPE(4)     = 0.,
+                       XUNIF_VEGTYPE(5)     = 0.5,
+                       XUNIF_VEGTYPE(6)     = 0.,
+                       XUNIF_VEGTYPE(7)     = 0.,
+                       XUNIF_VEGTYPE(8)     = 0.,
+                       XUNIF_VEGTYPE(9)     = 0.,
+                       XUNIF_VEGTYPE(10)    = 0.,
+                       XUNIF_VEGTYPE(11)    = 0.,
+                       XUNIF_VEGTYPE(12)    = 0.5,
+                       XUNIF_VEGTYPE(13)    = 0.,
+                       XUNIF_VEGTYPE(14)    = 0.,
+                       XUNIF_VEGTYPE(15)    = 0.,
+                       XUNIF_VEGTYPE(16)    = 0.,
+                       XUNIF_VEGTYPE(17)    = 0.,
+                       XUNIF_VEGTYPE(18)    = 0.,
+                       XUNIF_VEGTYPE(19)    = 0.,
+                       XUNIF_VEG(12,1)       = 0.95,
+                       XUNIF_VEG(12,2)       = 0.95,
+                       XUNIF_VEG(12,3)       = 0.95,
+                       XUNIF_VEG(12,4)       = 0.95,
+                       XUNIF_VEG(12,5)       = 0.95,
+                       XUNIF_VEG(12,6)       = 0.95,
+                       XUNIF_VEG(12,7)       = 0.95,
+                       XUNIF_VEG(12,8)       = 0.95,
+                       XUNIF_VEG(12,9)       = 0.95,
+                       XUNIF_VEG(12,10)      = 0.95,
+                       XUNIF_VEG(12,11)      = 0.95,
+                       XUNIF_VEG(12,12)      = 0.95,
+                       XUNIF_VEG(5,1)	    = 0.5,
+                       XUNIF_VEG(5,2)       = 0.5,
+                       XUNIF_VEG(5,3)       = 0.5,
+                       XUNIF_VEG(5,4)       = 0.5,
+                       XUNIF_VEG(5,5)       = 0.5,
+                       XUNIF_VEG(5,6)       = 0.5,
+                       XUNIF_VEG(5,7)       = 0.5,
+                       XUNIF_VEG(5,8)       = 0.5,
+                       XUNIF_VEG(5,9)       = 0.5,
+                       XUNIF_VEG(5,10)      = 0.5,
+                       XUNIF_VEG(5,11)      = 0.5,
+                       XUNIF_VEG(5,12)      = 0.5,
+!
+                       XUNIF_LAI(12,1)        = 0.1 
+                       XUNIF_LAI(12,2)        = 0.8
+                       XUNIF_LAI(12,3)        = 1.5
+                       XUNIF_LAI(12,4)        = 2.
+                       XUNIF_LAI(12,5)        = 3.
+                       XUNIF_LAI(12,6)        = 4.
+                       XUNIF_LAI(12,7)        = 5.
+                       XUNIF_LAI(12,8)        = 6.
+                       XUNIF_LAI(12,9)        = 3.8
+                       XUNIF_LAI(12,10)        = 2.5
+                       XUNIF_LAI(12,11)        = 1.7
+                       XUNIF_LAI(12,12)        = 0.5
+		       XUNIF_LAI(5,1)        = 1.2 
+                       XUNIF_LAI(5,2)        = 1.2
+                       XUNIF_LAI(5,3)        = 1.2
+                       XUNIF_LAI(5,4)        = 1.2
+                       XUNIF_LAI(5,5)        = 1.2
+                       XUNIF_LAI(5,6)        = 1.2
+                       XUNIF_LAI(5,7)        = 1.2
+                       XUNIF_LAI(5,8)        = 1.2
+                       XUNIF_LAI(5,9)        = 1.2
+                       XUNIF_LAI(5,10)        = 1.2
+                       XUNIF_LAI(5,11)        = 1.2
+                       XUNIF_LAI(5,12)        = 1.2
+                       XUNIF_Z0(12,1)        = 0.05
+                       XUNIF_Z0(12,2)        = 0.05
+                       XUNIF_Z0(12,3)        = 0.05
+                       XUNIF_Z0(12,4)        = 0.05
+                       XUNIF_Z0(12,5)        = 0.05
+                       XUNIF_Z0(12,6)        = 0.05
+                       XUNIF_Z0(12,7)        = 0.05
+                       XUNIF_Z0(12,8)        = 0.05
+                       XUNIF_Z0(12,9)        = 0.05
+                       XUNIF_Z0(12,10)        = 0.05
+                       XUNIF_Z0(12,11)        = 0.05
+                       XUNIF_Z0(12,12)        = 0.05
+	       	       XUNIF_Z0(5,1)        = 1.10,
+                       XUNIF_Z0(5,2)        = 1.10,
+                       XUNIF_Z0(5,3)        = 1.10,
+                       XUNIF_Z0(5,4)        = 1.10,
+                       XUNIF_Z0(5,5)        = 1.10,
+                       XUNIF_Z0(5,6)        = 1.10,
+                       XUNIF_Z0(5,7)        = 1.10,
+                       XUNIF_Z0(5,8)        = 1.10,
+                       XUNIF_Z0(5,9)        = 1.10,
+                       XUNIF_Z0(5,10)       = 1.10,
+                       XUNIF_Z0(5,11)       = 1.10,
+                       XUNIF_Z0(5,12)       = 1.10,
+                       XUNIF_H_TREE(5)      = 12.1,
+/
+&NAM_FRAC
+                       LECOCLIMAP = T,
+                       XUNIF_SEA    = 0.,
+                       XUNIF_WATER  = 0.,
+                       XUNIF_TOWN   = 0.,
+                       XUNIF_NATURE = 1.
+/
+&NAM_COVER             
+                       XUNIF_COVER(310) = 1.0
+/
+&NAM_PGD_GRID          CGRID = 'LONLAT REG' 
+/
+&NAM_LONLAT_REG        XLONMIN = 26.6         , 
+                       XLONMAX = 26.7         , 
+                       XLATMIN = 67.3        , 
+                       XLATMAX = 67.4       , 
+                       NLON    = 1            , 
+                       NLAT    = 1 
+/
+&NAM_PGD_SCHEMES       CNATURE = 'ISBA  '    , 
+                       CSEA    = 'NONE  '    , 
+                       CTOWN   = 'NONE  '    , 
+                       CWATER  = 'NONE  ' 
+/
+&NAM_PGD_ARRANGE_COVER  LWATER_TO_NATURE = T ,
+                        LTOWN_TO_ROCK    = T
+/
+&NAM_ZS                XUNIF_ZS  = 179.
+/
+&NAM_ISBA
+                       XUNIF_CLAY    = 0.10          ,
+                       XUNIF_SAND    = 0.90          ,
+	               XUNIF_RUNOFFB = 0.20           ,
+                       CPEDO_FUNCTION= 'CO84'        ,
+                       CISBA         = 'DIF'         ,
+                       CPHOTO        = 'NON'         ,
+                       NPATCH        = 2            ,
+                       NGROUND_LAYER = 14           ,
+                       CALBEDO    = "CM13"          ,
+	               LMEB          = .TRUE.        ,
+		       XSOILGRID     = 0.01,0.04,0.10,0.20,0.40,0.60,0.80,1.00,1.50,2.00,3.00,5.00,8.00,12.00
+                       LTR_ML        = .TRUE.       ,
+                       YSOC_TOP = 'soc_top',
+                       YSOC_SUB = 'soc_sub',                        
+                       YSOCFILETYPE = 'DIRECT',
+/
+&NAM_MEB_ISBA
+                       LMEB_PATCH    = .F., .T.,
+                       LFORC_MEASURE = .TRUE.
+                       LMEB_LITTER   = .TRUE.
+/
+&NAM_SSOn
+                       CROUGH      = 'NONE'  ,
+/
+&NAM_PREP_SURF_ATM NYEAR  = 2008,
+                   NMONTH = 1,
+                   NDAY   = 1,
+                   XTIME  = 600. 
+/
+&NAM_PREP_ISBA
+                   XHUG_SURF = 0.2,
+                   XHUG_ROOT = 0.2,
+                   XHUG_DEEP = 0.5,
+                   XHUGI_SURF = 0.15,
+                   XHUGI_ROOT = 0.15,
+                   XHUGI_DEEP = 0.0,
+                   XTG_SURF  = 271.15,
+                   XTG_ROOT  = 273.15,
+                   XTG_DEEP  = 276.15,
+/
+&NAM_PREP_ISBA_SNOW
+!                       CSNOW = '3-L',
+!                       NSNOW_LAYER = 12,
+                       CSNOW = 'CRO',
+                       NSNOW_LAYER = 30,
+                       XWSNOW = 72.5,
+                       XRSNOW = 250.,
+                       XTSNOW = 268.15,
+                       XSG1SNOW=-90.0,
+                       XSG2SNOW=50.0,
+                       XHISTSNOW=0.0,
+                       XAGESNOW=3.0,
+/
+&NAM_IO_OFFLINE        LPRINT  = T                       ,
+                       CFORCING_FILETYPE =    'ASCII '   ,
+                       CSURF_FILETYPE =       'ASCII '   ,
+!                       CSURF_FILETYPE =       'NC '   ,
+!                       CTIMESERIES_FILETYPE = 'TEXTE '   ,
+                       CTIMESERIES_FILETYPE = 'NETCDF'   ,
+                       XTSTEP_SURF = 600.                ,
+!                       XTSTEP_OUTPUT = 86400.            ,
+                       XTSTEP_OUTPUT = 3600.
+/
+&NAM_DIAG_SURFn
+                       LSURF_BUDGET = T      , 
+                       LSURF_BUDGETC = T      , 
+                       N2M          = 2      ,
+                       LCOEF        = T      ,
+                       LSURF_VARS   = T
+/
+&NAM_DIAG_SURF_ATMn    LFRAC        = T 
+/
+&NAM_DIAG_ISBAn        LPGD              = T , 
+                       LSURF_EVAP_BUDGET = T , 
+                       LSURF_MISC_BUDGET = T ,
+                       LPATCH_BUDGET = T     ,
+                       LPROSNOW = T
+/
+&NAM_DIAG_TEBn         LSURF_MISC_BUDGET = T 
+/
+&NAM_WRITE_DIAG_SURFN
+                       LPROVAR_TO_DIAG=T,
+                       LSNOWDIMNC = T,
+/
+&NAM_SGH_ISBAn         CRUNOFF    = "DT92"   ,
+                       LSOC         = T      ,
+                       CRAIN    = 'SGH '     ,
+                       CHORT    = 'DEF'      ,
+/
+&NAM_ISBAn
+                       CSCOND     = "PL98"     ,
+                       CC1DRY     = 'DEF '     ,
+                       CSOILFRZ   = 'LWT'      ,
+                       CDIFSFCOND = 'DEF '     ,
+                       CSNOWRES   = 'RIL'      ,
+                       CCPSURF    = 'DRY' 
+/
