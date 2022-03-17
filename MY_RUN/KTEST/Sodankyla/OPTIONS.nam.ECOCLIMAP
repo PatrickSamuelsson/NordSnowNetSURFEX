@@ -179,7 +179,7 @@
 &NAM_IO_OFFLINE        LPRINT  = T                       ,
                        CFORCING_FILETYPE =    'ASCII '   ,
                        CSURF_FILETYPE =       'ASCII '   ,
-!                       CSURF_FILETYPE =       'NC '   ,
+!                       CSURF_FILETYPE =       'NC'   ,
 !                       CTIMESERIES_FILETYPE = 'TEXTE '   ,
                        CTIMESERIES_FILETYPE = 'NETCDF'   ,
                        XTSTEP_SURF = 600.                ,
@@ -188,7 +188,7 @@
 /
 &NAM_DIAG_SURFn
                        LSURF_BUDGET = T      , 
-                       LSURF_BUDGETC = T      , 
+!                       LSURF_BUDGETC = T      , 
                        N2M          = 2      ,
                        LCOEF        = T      ,
                        LSURF_VARS   = T
