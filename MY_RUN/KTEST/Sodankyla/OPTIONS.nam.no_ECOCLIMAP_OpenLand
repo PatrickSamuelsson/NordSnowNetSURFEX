@@ -258,8 +258,8 @@
 !                       CTIMESERIES_FILETYPE = 'TEXTE '   ,
                        CTIMESERIES_FILETYPE = 'NETCDF'   ,
                        XTSTEP_SURF = 600.                ,
-!                       XTSTEP_OUTPUT = 86400.            ,
-                       XTSTEP_OUTPUT = 3600.
+                       XTSTEP_OUTPUT = 86400.            ,
+!                       XTSTEP_OUTPUT = 3600.
 /
 &NAM_DIAG_SURFn
                        LSURF_BUDGET = T      , 

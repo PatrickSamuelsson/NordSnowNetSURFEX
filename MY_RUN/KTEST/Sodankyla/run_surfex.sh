@@ -7,11 +7,12 @@
 
 # No use of ECOCLIMAP parameters, all values needed specified in the namelist:
 # This is an open land case
-cp OPTIONS.nam.no_ECOCLIMAP_OpenLand OPTIONS.nam
+#cp OPTIONS.nam.no_ECOCLIMAP_OpenLand OPTIONS.nam
 
 # No use of ECOCLIMAP parameters, all values needed specified in the namelist:
-# This is a forest setup without MEB
+# These are forest setups with and without MEB
 #cp OPTIONS.nam.no_ECOCLIMAP_forest_noMEB OPTIONS.nam
+cp OPTIONS.nam.no_ECOCLIMAP_forest_withMEB OPTIONS.nam
 
 # Use of ECOCLIMAP parameter file, but some values specified in the namelist:
 # Please note that this option requires links to physiography below.
@@ -27,6 +28,7 @@ binpath="/home/a000793/NordSnowNet/SURFEX_V9_DEV/src/dir_obj-LXgfortran-SFX-V8-1
 # Location of physiography *.hdr and *.dir files.
 # Please download needed files from http://www.umr-cnrm.fr/surfex/spip.php?rubrique14
 #physiography_path="/nobackup/smhid13/sm_uandr/HARMONIE/data/climate/PGD"
+
 #####################################
 
 curdir=$PWD
