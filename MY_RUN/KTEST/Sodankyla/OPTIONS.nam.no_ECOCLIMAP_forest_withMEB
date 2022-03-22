@@ -362,10 +362,10 @@
                    XTG_DEEP  = 276.15,
 /
 &NAM_PREP_ISBA_SNOW
-                       CSNOW = '3-L',
-                       NSNOW_LAYER = 12,
-!                       CSNOW = 'CRO',
-!                       NSNOW_LAYER = 30,
+!                       CSNOW = '3-L',
+!                       NSNOW_LAYER = 12,
+                       CSNOW = 'CRO',
+                       NSNOW_LAYER = 30,
                        XWSNOW = 72.5,
                        XRSNOW = 250.,
                        XTSNOW = 268.15,
