@@ -19,14 +19,20 @@ cp OPTIONS.nam.no_ECOCLIMAP_OpenLand OPTIONS.nam
 #####################################
 
 #####################################
+# Which Params file to use:
+cp Params_config_2008.txt Params_config.txt
+#cp Params_config_whole_period.txt Params_config.txt
+#####################################
+
+#####################################
 # Paths on your file system to be specified:
 
 # Location of binaries, i.e. PGD, PREP, OFFLINE
-binpath="/home/a000793/NordSnowNet/SURFEX_V9_DEV/src/dir_obj-LXgfortran-SFX-V8-1-1-NOMPI-OMP-O2-X0/MASTER"
+binpath="/nobackup/smhid19/users/sm_psamu/NordSnowNet_training/SURFEX_V9_DEV/src/dir_obj-LXifort-SFX-V8-1-1-NOMPI-OMP-O2-X0/MASTER"
 
 # Location of physiography *.hdr and *.dir files.
 # Please download needed files from http://www.umr-cnrm.fr/surfex/spip.php?rubrique14
-#physiography_path="/nobackup/smhid13/sm_uandr/HARMONIE/data/climate/PGD"
+physiography_path="/nobackup/smhid13/sm_uandr/HARMONIE/data/climate/PGD"
 #####################################
 
 curdir=$PWD
@@ -36,10 +42,12 @@ export OMP_NUM_THREADS=1
 #############
 # Link to ECOCLIMAP parameter files and physiography data
 if [ ! -s $curdir/ecoclimapI_covers_param.bin ]; then
-  ln -sf /home/a000793/NordSnowNet/SURFEX_V9_DEV/MY_RUN/ECOCLIMAP/*.bin .
+  ln -sf /nobackup/smhid19/users/sm_psamu/NordSnowNet_training/SURFEX_V9_DEV/MY_RUN/ECOCLIMAP/*.bin .
 
 # Link to soil carbon files soc_sub.dir, soc_sub.hdr, soc_top.dir, soc_top.hdr
 #  ln -sf $physiography_path/soc_* .
+  ln -sf $physiography_path/*.hdr .
+  ln -sf $physiography_path/*.dir .
 fi
 #############
 
